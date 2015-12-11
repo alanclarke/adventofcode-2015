@@ -4,7 +4,7 @@
   "description": "my solutions to adventofcode.com",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/karma start --single-run"
+    "test": "node_modules/.bin/mocha"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +16,7 @@
     "karma-mocha": "^0.2.1",
     "karma-sourcemap-loader": "^0.3.6",
     "karma-webpack": "^1.7.0",
+    "md5": "^2.0.0",
     "mocha": "^2.3.4",
     "standard": "^5.4.1",
     "webpack": "^1.12.9"
